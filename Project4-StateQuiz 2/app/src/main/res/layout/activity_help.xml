@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HelpActivity"
+    tools:ignore="MissingClass">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        android:paddingBottom="20dp"
+        android:paddingTop="70dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:text="How To Play : " />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" From the splash screen if you press the play button you get quizzed on 6 states and their capitals. the first question is presented to you with three options. You can choose one and then swipe to get to the next question. You keep doing that until you ge to the final screen which chows the result. You press the save quiz result button to save this quiz to the list of prior quizzes. Do Not Swipe to previous questions so be sure of your answer before you swipe to confirm your answer.The other button on the splash screen labeled scores allows you to see previous quiz results with the date and time , number of answered questions , and final result."
+        android:textSize="20sp" />
+
+</LinearLayout>
